@@ -1,1 +1,14 @@
-![Hello](https://media.giphy.com/media/dzaUX7CAG0Ihi/giphy.gif)
+
+```typescript
+
+@Component({
+  template: `
+    Hello ! 🤓
+  `
+})
+export class DeveloperComponent {
+  name = 'Daniel'
+  lastname = 'Payet'
+}
+
+```
